@@ -2,7 +2,7 @@
 Бэк сайта для новостей, реализовано: отдача новостей, добавление новостей с картинкой (кладется в папку image), аутенфикация.
 GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
 
-GET    /auth/sign-up             --> Регистрация переход на сайт
+GET    /auth/sign-up             --> Регистрация переход на сайт /n
 GET    /auth/sign-in             --> Аутенфикация
 POST   /auth/sign-up             --> Отправка json с данными для регистрации
 POST   /auth/sign-in             --> Отправка json с данными для входа, в ответ приходит токен
